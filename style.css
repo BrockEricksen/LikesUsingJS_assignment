@@ -1,0 +1,111 @@
+.main{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: monospace;
+    font-size: large;
+}
+
+#your_feed{
+    text-align: center;
+    margin: 10px;
+}
+
+.banner{
+    background-color: black;
+    width: 900px;
+    color: white;
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    padding-left: 60px;
+    font-family: monospace;
+    font-size: larger;
+}
+
+.left_col{
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    height: 350px;
+    width: 250px;
+    border: 3px black solid;
+    margin: 20px;
+}
+
+#blank_pfp{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.right_col{
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+.pfp1{
+    border: 3px black solid;
+    width: 600px;
+    height: 160px;
+    margin: 20px;
+    margin-top: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+.pfp2{
+    border: 3px black solid;
+    width: 600px;
+    height: 160px;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.pfp3{
+    border: 3px black solid;
+    width: 600px;
+    height: 160px;
+    margin: 20px;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.top_pfp1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_pfp2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_pfp3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#btn1{
+    height: 30px;
+    width: 70px;
+    background-color: rgba(255, 255, 0, 0.596);
+}
+
+#btn2{
+    height: 30px;
+    width: 70px;
+    background-color: rgba(255, 255, 0, 0.596);
+}
+
+#btn3{
+    height: 30px;
+    width: 70px;
+    background-color: rgba(255, 255, 0, 0.596);
+}

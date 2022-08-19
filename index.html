@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="banner">
+        <h1>Network</h1>
+    </div>
+    <h1 id="your_feed">Your Feed</h1>
+
+    <div class="main">
+        <div class="left_col">
+            <img src="blank_pfp.png" alt="pfp" id="blank_pfp">
+            <h3><a href="null">Add an avatar</a></h3>
+            <h1>James Doe</h1>
+        </div>
+
+        <div class="right_col">
+            <div class="pfp1">
+                <div class="top_pfp1">
+                    <h2>Neil M</h2>
+                    <p id="pfp1_count">9 like(s)</p>
+                    <button onclick="add_like_pfp1(this)" id="btn1">Like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think. <a href="null">link</a></p>
+            </div>
+            <div class="pfp2">
+                <div class="top_pfp2">
+                    <h2>Nichole K</h2>
+                    <p id="pfp2_count">12 like(s)</p>
+                    <button onclick="add_like_pfp2(this)" id="btn2">Like</button>
+                </div>
+                <p>Just finished my <a href="null">next comic</a>, check it out.</p>
+            </div>
+            <div class="pfp3">
+                <div class="top_pfp3">
+                    <h2>Jim R</h2>
+                    <p id="pfp3_count">7 like(s)</p>
+                    <button onclick="add_like_pfp3(this)" id="btn3">Like</button>
+                </div>
+                <p>I can't stop listening to the <a href="null">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
